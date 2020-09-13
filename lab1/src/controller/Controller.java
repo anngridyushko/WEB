@@ -29,6 +29,7 @@ public class Controller {
         System.out.println("root 1 = " + e1.getRoot1() +
                 "\nroot 2 = " + e1.getRoot2() +
                 "\nextremum: " + e1.getExtremum());
+        System.out.println("Decrease and increase intervals: ");
         e1.getIntervals();
 
         QuadraticEquation e2 = new QuadraticEquationComplex(z1,z2,z3);

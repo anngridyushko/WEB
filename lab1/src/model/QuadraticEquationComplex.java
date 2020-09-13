@@ -24,7 +24,8 @@ public class QuadraticEquationComplex extends QuadraticEquation<Complex> {
      */
     @Override
     public Complex getExtremum() {
-        return null;
+        Complex x1 = b.negate().div(a).div(2);
+        return (a.mul(x1).mul(x1)).add((b).mul(x1)).add(c);
     }
 
     /**

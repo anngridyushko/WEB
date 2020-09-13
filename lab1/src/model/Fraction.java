@@ -61,7 +61,7 @@ public class Fraction {
      * @param den denominator
      */
     private void Init(long num, long den) {
-        assert(den!=0):"denominator is null";
+        assert(den!=0):"denominator is 0";
         int gcd = (int)GCD(Math.abs(num), Math.abs(den));
         num /= gcd;
         den /= gcd;

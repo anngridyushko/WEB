@@ -174,7 +174,7 @@ public class Complex {
         } else if (i == 0.0) {
             return String.format("%s", r);
         } else {
-            return String.format("%s - %si", r, i);
+            return String.format("%s - %si", r, Math.abs(i));
         }
     }
 }
